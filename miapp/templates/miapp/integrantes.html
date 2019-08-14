@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desafio 1</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: green;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+h3 {
+	color: black;
+	text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		
+		<a class="navbar-brand" href="../index">Index</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="../integrantes">Integrantes</a>
+				<a class="nav-item nav-link" href="../cursos">Cursos</a>
+
+			</div>
+		
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+			<h1>Integrantes del equipo docente</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="col">
+		<h2>Profesores de Cátedra</h2>
+		<h3>Ángel Jiménez Molina</h3>
+		<h3> Iván Díaz Campos</h3>
+		<h2>Profesores Auxiliares</h2>
+		<h3>Javiera Ovalle T.</h3>
+		<h3>Jorge Pinto</h3>
+		<h3>José Canto</h3>
+		<h3>Macarena V. Osorio A.</h3>
+		<h2>Ayudantes</h2>
+		<h3>Catalina Martin D.</h3>
+		<h3>Carlos Alberto Vega Hernández</h3>
+		<h3>Eduardo Valerio C.</h3>
+		<h3>Juan Gutiérrez T.</h3>
+		<h3>Matías Rojas</h3>
+		<h3>Nicolás Villa Contardo</h3>
+		<h3>Sebastián Donoso</h3>
+		<h3>Sofia Herrera</h3>
+		<h3>Victoria Arce A.</h3>
+	</div>	
+</div>
+</body>
+</html>
+
+
+

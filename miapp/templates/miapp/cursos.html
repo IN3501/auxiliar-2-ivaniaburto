@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desafio 1</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: green;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		
+		<a class="navbar-brand" href="../index">Index</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="../integrantes">Integrantes</a>
+				<a class="nav-item nav-link" href="../cursos">Cursos</a>
+
+			</div>
+		
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+			<h1>Cursos semestre primavera 2019</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col">
+		<h1>Probabilidad y estadística</h1>
+		<h2>Profesora Laura Perez</h2>
+		<h1>Inglés 3</h2>
+		<h2>Profesora Ámbar Romero</h2>
+		<h1>Historia II</h1>
+		<h2>Profesor Alfredo Jocelyn-Holt</h2>
+		<h1>Modelamiento y Optimización</h1>
+		<h2>Profesor Fernando Ordoñez P.</h2>
+		<h1>Tecnologías de Información y Comunicaciones para la Gestión</h1>
+		<h2>Profesor Ángel Jiménez Molina</h2>
+		<h2>Profesor Iván Díaz Campos</h2>
+		<h1>Economía</h1>
+		<h2>Profesor Alejandro Corvalán</h2>
+	</div>	
+</div>
+</body>
+</html>
+
+
+
